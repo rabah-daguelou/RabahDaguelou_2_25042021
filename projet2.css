@@ -76,3 +76,58 @@ nav ul li {
 a,a:visited{
     color: #000;
 }
+
+
+        /****** S E C T I O N 01 \ RECHERCHE \ */
+
+h1 {
+    font-size: 16px;
+    margin: 50px 0px 15px;
+}
+
+    /* barre de recherche */ 
+
+.barre_de_recherche {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 420px;
+    height: 50px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.icone_adresse {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 10px 0px 0px 10px;
+   
+}
+
+form input{
+    font-weight: bold;
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+
+.bouton_rechercher {
+    width: 135px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #0065fc;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+.icone_rechercher {
+    display: none;
+}
