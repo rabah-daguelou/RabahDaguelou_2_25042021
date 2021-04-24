@@ -1,0 +1,78 @@
+@font-face{
+	font-family: 'raleway';
+	src: url('police/Raleway-VariableFont_wght.ttf');
+}
+
+
+ 
+               /******** G E N E R A L **************/
+
+*  {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+.page {
+    margin: 0px 50px 50px 50px;
+}
+section h1,h2{
+    font-size:18px;
+}
+h3 {
+    font-size: 14px;
+}
+h1,h2,h3,.gras,#inscrire{
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+i{
+    
+    color: #0065fc;
+}
+span i {
+    color: #d9d9d9;
+}
+                     /***** H E A D E R ****/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 65px;
+ }
+
+nav ul li {
+    display: inline-block;
+    margin-left:70px;
+}
+
+.logo img {
+    width: 95px;
+    padding-top: 20px;
+
+}
+#hebergements{
+    padding-top: 49px;
+    border-top:1px solid #0065fc;
+}
+#hebergements a:visited{
+    color: #0065fc;
+}
+#activites a{
+    color: #000;
+}
+#inscrire a,#inscrire a:visited {
+    color:#0065fc;
+}
+a,a:visited{
+    color: #000;
+}
