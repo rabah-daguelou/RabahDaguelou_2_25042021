@@ -131,7 +131,7 @@ form input{
 .icone_rechercher {
     display: none;
 }
- /*** Les filtres **/
+   /*** Les filtres **/
 
 .filtres {
     width: 70%;
@@ -216,4 +216,144 @@ form input{
     border-radius: 12px;
     margin-right: 10px; 
 
+}
+ /** S E C T I O N 02 / Hébérgements à Marseille / **/ 
+
+#marseille {
+    display: flex;
+    margin:40px 0px 65px 0px ;
+    font-size: 13px;
+}
+
+#marseille h2{
+    margin: 45px 0px 25px 40px;
+}
+
+.hebergements_marseille {
+    width: 65.67%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-right: 40px ;
+}
+
+.hotels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.bloc_photo{
+    width: 26.7%;
+    height: 190px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+}
+
+.bloc_photo picture img{
+    width: 100%;
+    height: 115px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+ .bloc_photo{
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+}
+.bloc_photo:hover{
+    -webkit-transform:scale(1.08); 
+    -moz-transform:scale(1.08); 
+   
+    box-shadow: 2px 2px 5px grey;
+    background-color: #deebff;
+}
+
+.infos_dessous {
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 15px;
+}
+.afficher {
+    padding-bottom: :20px;
+
+}
+
+        /* ASIDE */
+
+aside {
+    width: 34.32%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    position: relative;
+}
+
+.chart-line{
+    position: absolute;
+    top: 45px;
+    right: 40px;
+}
+
+.chart-line i{
+    color: #000;
+}
+
+aside h2{
+    margin:45px 0px 25px 35px;
+}
+.les_populaires {
+    width:79.76%;
+    margin:0px auto;
+} 
+.bloc_photo_populaires {
+    width:100%;
+    height: 135px;
+    background-color: #fff;
+    border:5px solid #fff;
+    border-radius: 10px;
+    margin: 25px auto;
+    display: flex;
+}
+.bloc_photo_populaires picture{
+    width: 40%;
+    margin-right: 20px;
+}
+.bloc_photo_populaires picture img{
+    width:100%;
+    height: 135px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.bloc_photo_populaires{
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+}
+.bloc_photo_populaires:hover{
+    -webkit-transform:scale(1.08); 
+    -moz-transform:scale(1.08); 
+    
+    box-shadow: 2px 2px 5px grey;
+    background-color: #deebff;
+}
+
+.infos_cote {
+    width: 60%;
+    margin: 20px 0px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.infos_cote h3{
+    flex:1;
+}
+.infos_cote .prix{
+    flex:2;
+}
+.infos_cote.etoiles {
+    flex: 3;
 }
