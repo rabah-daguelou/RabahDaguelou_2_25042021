@@ -114,6 +114,7 @@ form input{
     border: none;
     font-size: 14px;
     outline: none;
+    color: #000;
 }
 
 .bouton_rechercher {
@@ -261,13 +262,9 @@ form input{
 
 
  .bloc_photo{
-    transition: all .5s ease;/*
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;*/
+    transition: all .5s;
 }
 .bloc_photo:hover{
-    /*-webkit-transform:scale(1.08); 
-    -moz-transform:scale(1.08);*/
     transform: scale(1.08); 
     box-shadow: 2px 2px 5px grey;
     background-color: #deebff;
@@ -331,15 +328,10 @@ aside h2{
 }
 
 .bloc_photo_populaires{
-    transition: all .5s ease;/*
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;*/
+    transition: all .5s;
 }
 .bloc_photo_populaires:hover{
-    transform:scale(1.08);/*
-    -webkit-transform:scale(1.08); 
-    -moz-transform:scale(1.08); */
-    
+    transform:scale(1.08);    
     box-shadow: 2px 2px 5px grey;
     background-color: #deebff;
 }
@@ -429,13 +421,9 @@ aside h2{
 }
 .rangee1,.rangee3,.photo2,.photo3,.photo5,.photo6 {
     box-shadow: 10px 10px 10px #f2f2f2;
-    transition: all .5s ease;/*
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;*/
+    transition: all .5s;
 }
 .rangee1:hover,.rangee3:hover,.photo2:hover,.photo3:hover,.photo5:hover,.photo6:hover{
-    /*-webkit-transform:scale(1.08); 
-    -moz-transform:scale(1.08); */
     transform:scale(1.08);
     box-shadow: 2px 2px 5px grey;
     background-color: #deebff;
