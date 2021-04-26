@@ -459,6 +459,9 @@ footer ul li {
 footer ul li a {
     color:#979797;
 }
+footer ul li a:visited{
+    color:#979797;
+}
 footer ul {
     margin-bottom:45px;
 }
